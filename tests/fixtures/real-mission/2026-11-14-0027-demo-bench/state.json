@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "mission_id": "2026-11-14-0027-demo-bench",
+  "robot": "DEMO",
+  "robot_kind": "anki-vector",
+  "space_name": "bench",
+  "strategy": "frontier",
+  "status": "done",
+  "phase": "survey",
+  "started_at": "2026-11-14T05:27:30Z",
+  "updated_at": "2026-11-14T05:27:39Z",
+  "paused": false,
+  "allow_optical_fiducial": false,
+  "pose": {
+    "x_m": 0.2,
+    "y_m": 0,
+    "theta_rad": 0,
+    "sigma": [
+      0.05,
+      0.05,
+      0.02
+    ]
+  },
+  "budgets": {
+    "distance_m": {
+      "cap": 40,
+      "used": 0.2
+    },
+    "seconds": {
+      "cap": 1800,
+      "used": 0
+    },
+    "collisions": {
+      "cap": 3,
+      "used": 0
+    }
+  },
+  "map_stats": {
+    "known_cells": 324,
+    "free_cells": 256,
+    "occ_cells": 68,
+    "cliff_cells": 0,
+    "frontier_cells": 0
+  },
+  "attrs": {
+    "ok": true,
+    "sensors": {
+      "proprio": true,
+      "ranging": true,
+      "tactile": true,
+      "delegate_map": true
+    },
+    "actuators": {
+      "wheel_encoder": true,
+      "proximity_ir_tof": true,
+      "cliff": true,
+      "imu": true,
+      "undock": true,
+      "dock": true,
+      "scan": true,
+      "solve_maze": true,
+      "drive_helper_present": true
+    },
+    "pose_noise_floor": {
+      "x": 0.015,
+      "y": 0.015,
+      "theta": 0.02
+    },
+    "firmware": {
+      "platform": "anki-vector",
+      "esn": "00000000"
+    }
+  },
+  "visited_frontiers": [
+    [
+      0.375,
+      0.0
+    ]
+  ]
+}

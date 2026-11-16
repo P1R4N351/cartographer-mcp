@@ -1,0 +1,22 @@
+{"ts":"2026-11-14T05:27:30Z","phase":"start","msg":"created mission=2026-11-14-0027-demo-bench robot=DEMO strategy=auto\n"}
+{"ts":"2026-11-14T05:27:31Z","phase":"survey","msg":"vector-proprio strategy=frontier\n"}
+{"ts":"2026-11-14T05:27:31Z","phase":"survey","msg":"recipe=draft-cartographer-vector-proprio.sh rc=0\n"}
+{"ts":"2026-11-14T05:27:31Z","phase":"plan","msg":"seed initial read-map + 0.10m probe\n"}
+{"ts":"2026-11-14T05:27:31Z","phase":"plan","msg":"recipe=draft-cartographer-vector-proprio.sh rc=0\n"}
+{"ts":"2026-11-14T05:27:31Z","phase":"resume","msg":"paused=false\n"}
+{"ts":"2026-11-14T05:27:32Z","phase":"send","msg":"recipe=draft-cartographer-vector-proprio.sh rc=0\n"}
+{"ts":"2026-11-14T05:27:32Z","phase":"poll","msg":"in-flight pid=4564 cmd=cmd-0001\n"}
+{"ts":"2026-11-14T05:27:32Z","phase":"poll","msg":"recipe=draft-cartographer-vector-proprio.sh rc=0\n"}
+{"ts":"2026-11-14T05:27:34Z","phase":"poll","msg":"recipe=draft-cartographer-vector-proprio.sh rc=0\n"}
+{"ts":"2026-11-14T05:27:34Z","phase":"extract-map","msg":"vector NavMapAtlas exported frontiers=1 known=308\n"}
+{"ts":"2026-11-14T05:27:34Z","phase":"fuse","msg":"recipe=draft-cartographer-vector-proprio.sh rc=0\n"}
+{"ts":"2026-11-14T05:27:35Z","phase":"plan","msg":"frontier (0.38,-0.00) size=16\n"}
+{"ts":"2026-11-14T05:27:35Z","phase":"plan","msg":"recipe=draft-cartographer-vector-proprio.sh rc=0\n"}
+{"ts":"2026-11-14T05:27:36Z","phase":"send","msg":"recipe=draft-cartographer-vector-proprio.sh rc=0\n"}
+{"ts":"2026-11-14T05:27:37Z","phase":"poll","msg":"in-flight pid=5419 cmd=cmd-0002\n"}
+{"ts":"2026-11-14T05:27:37Z","phase":"poll","msg":"recipe=draft-cartographer-vector-proprio.sh rc=0\n"}
+{"ts":"2026-11-14T05:27:38Z","phase":"poll","msg":"recipe=draft-cartographer-vector-proprio.sh rc=0\n"}
+{"ts":"2026-11-14T05:27:39Z","phase":"extract-map","msg":"vector NavMapAtlas exported frontiers=0 known=324\n"}
+{"ts":"2026-11-14T05:27:39Z","phase":"fuse","msg":"recipe=draft-cartographer-vector-proprio.sh rc=0\n"}
+{"ts":"2026-11-14T05:27:39Z","phase":"finalize","msg":"vector proprio wrapped\n"}
+{"ts":"2026-11-14T05:27:39Z","phase":"finalize","msg":"recipe=draft-cartographer-vector-proprio.sh rc=0\n"}

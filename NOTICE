@@ -1,0 +1,21 @@
+cartographer-mcp
+Copyright (c) 2026 PiSCES - The Piranesi-Satraj Composite Expert System.
+
+Code is licensed under the Mozilla Public License 2.0; see LICENSE.
+Documentation (README.md) and recorded data are licensed under Creative
+Commons Attribution 4.0 International (CC BY 4.0).
+Attribution string: "PiSCES - The Piranesi-Satraj Composite Expert System".
+
+This project is not affiliated with Anki or Digital Dream Labs; Vector is
+their product. No third-party source files or assets are included.
+
+In this published copy the robot's name was replaced by "demo" in the test
+fixture and tests. Paths written as skills/... refer to the private
+workspace this folder came from.
+
+Not standalone. The movement check needs the vector_slam_maze package
+(vector-slam-maze v0.4.1), and the tests also read three Cartographer
+scripts (_cartographer_lib.sh, draft-cartographer-vector-proprio.sh,
+_vector_drive.py). None of those is published here. With them beside this
+folder as skills/vector-slam and skills/, 36 of 36 tests pass; without them
+20 of 36 pass and 16 fail.
