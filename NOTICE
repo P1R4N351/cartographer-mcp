@@ -13,9 +13,10 @@ In this published copy the robot's name was replaced by "demo" in the test
 fixture and tests. Paths written as skills/... refer to the private
 workspace this folder came from.
 
-Not standalone. The movement check needs the vector_slam_maze package
-(vector-slam-maze v0.4.1), and the tests also read three Cartographer
-scripts (_cartographer_lib.sh, draft-cartographer-vector-proprio.sh,
-_vector_drive.py). None of those is published here. With them beside this
-folder as skills/vector-slam and skills/, 36 of 36 tests pass; without them
-20 of 36 pass and 16 fail.
+The movement check needs the vector_slam_maze package, published at
+https://github.com/P1R4N351/vector-slam-maze. Clone it and set
+CARTOGRAPHER_MOVEMENT_PKG to the clone's folder. With that, 32 of the 36
+tests pass. The other 4 compare the grammar with three Cartographer scripts
+(_cartographer_lib.sh, draft-cartographer-vector-proprio.sh,
+_vector_drive.py) that are not published; with those beside this folder as
+well, 36 of 36 pass. Without the package, 20 of 36 pass.
