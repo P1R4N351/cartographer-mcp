@@ -34,6 +34,8 @@ STOP_REASONS = {
                               "the range sensor did not see is in the way.", "moved part of the way"),
     "bump": ("blocked", "The robot hit something. Cartographer counts this against the collision budget.", "moved part of the way"),
     "cliff": ("hazard", "A cliff sensor fired, but it is read only after a drive chunk ends, so the robot may already be at or over the edge, or have fallen. Do not move forward again; check pose and picked_up before any move.", "may be over the edge"),
+    "cliff_lockout": ("refused", "Forward motion is locked out after an earlier cliff, fall, or control loss until the robot backs up or turns clear.", "did not move"),
+    "control_lost": ("hazard", "The robot's own reaction took behavior control during the command (typically at an edge or pick-up) and cancelled the action.", "stopped by firmware reaction"),
     "picked_up": ("hazard", "The robot was lifted off the surface. Its pose can no longer be trusted.", "stopped"),
     "falling": ("hazard", "The robot reported that it is falling.", "stopped"),
     "on_charger": ("refused", "The robot is on its charger and this command does not run there; undock first.", "did not move"),
