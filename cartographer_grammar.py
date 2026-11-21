@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """cartographer_grammar — the command grammar a Cartographer mission accepts, as data.
 
-Authored-by: CPCS. One place that says, for every command kind: where it is legal,
+One place that says, for every command kind: where it is legal,
 which argument keys exist, their units, which are alternatives, and what limits
 apply. Limits are never written here as numbers: each names a constant of
 vector_slam_maze.movement_directives and is resolved from that module when asked,
