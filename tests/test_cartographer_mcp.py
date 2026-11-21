@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Tests for cartographer-mcp. Standard library only; no robot, no network.
 
-Authored-by: CPCS. Run:  python3 -m unittest discover -s skills/cartographer-mcp/tests -v
+Run:  python3 -m unittest discover -s skills/cartographer-mcp/tests -v
 """
 import json
 import math
