@@ -4,7 +4,7 @@
 # tags: [mcp, cartographer, robots, vector, navigation]
 """cartographer-mcp — STDIO frontend. Transport only.
 
-Modelled on the household's asksat-mcp and polyad-mcp:
+The usual minimal shape for a local MCP server:
 newline-delimited JSON-RPC on stdio, one dispatcher, no HTTP listener, standard
 library only. The tools are in cartographer_service.py.
 

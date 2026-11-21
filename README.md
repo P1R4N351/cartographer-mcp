@@ -100,7 +100,6 @@ silently.
 ```bash
 python3 -m unittest discover -s skills/cartographer-mcp/tests -v
 python3 skills/cartographer-mcp/tests/mutate.py
-python3 skills/p10-scan.py --fail-on warn --fail-on-unscannable skills/cartographer-mcp
 ```
 
 `tests/fixtures/real-mission/` is a mission written by Cartographer itself

@@ -180,8 +180,8 @@ KNOWN_HAZARDS = (
     "A result with stopped_reason pose_unavailable after motion began does not say how far the robot went.",
     "bounded turns do not check that the robot's body clears nearby walls as it rotates.",
     "The front range sensor is a single beam on the centreline. A narrow object off the centreline is not seen.",
-    "solve-maze runs a driver that does not yet use the bounded primitives (tracked as [0e8a96e]).",
-    "Vector's own cliff reflex is off while the household holds SDK control (OVERRIDE_BEHAVIORS_PRIORITY: "
+    "solve-maze runs a driver that does not yet use the bounded primitives (a known open issue).",
+    "Vector's own cliff reflex is off while an SDK client holds control (OVERRIDE_BEHAVIORS_PRIORITY: "
     "'will drive off table'), and the drive checks the cliff sensor only after each chunk "
     "(see bounds MAX_FORWARD_CHUNK_MM). A forward move toward unmapped space or a known drop can go over "
     "the edge. Robots have done so repeatedly (2026-11-14).",
