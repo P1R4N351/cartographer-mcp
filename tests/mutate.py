@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Break cartographer-mcp on purpose and check its tests notice.
 
-Authored-by: CPCS. Run:  python3 skills/cartographer-mcp/tests/mutate.py
+Run:  python3 skills/cartographer-mcp/tests/mutate.py
 Each arm changes one line in a scratch copy, runs the suite, and restores the file.
 An arm is CAUGHT only when the suite fails; the tests that failed are printed so a
 catch for the wrong reason can be seen. A fault of this harness (a needle that does
