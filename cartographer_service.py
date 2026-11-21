@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """cartographer_service — the tools of cartographer-mcp. Transport-independent.
 
-Authored-by: CPCS. Six tools for the intelligence that decides where a robot goes:
+Six tools for the intelligence that decides where a robot goes:
 read what Cartographer wrote, and learn and check the exact syntax of a command.
 
 THIS SERVER MOVES NOTHING. It does not queue a command, run the drive helper or
