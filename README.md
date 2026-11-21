@@ -5,7 +5,7 @@ description: MCP (stdio) interface for the intelligence that decides where a rob
 
 # cartographer-mcp
 
-Authored-by: CPCS. Charter it serves: `CARTOGRAPHER.md`.
+Charter it serves: `CARTOGRAPHER.md`.
 
 Cartographer turns a robot's sensing into text and takes commands back as text.
 The model that decides what to do next is chosen for judgement, not for
